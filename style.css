@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(0, 0%, 95%);
+}
+ul li {
+    list-style-type: none;
+}
+ul a{
+    text-decoration: none;
+    color: rgb(23, 22, 22);
+    font-size: larger;
+}
+
+main{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    
+}
+.sedan-box{
+    background:hsl(31, 77%, 52%) ;
+    color: hsla(0, 0%, 100%, 0.75);
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px 0 0 5px;
+    
+}
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+}
+.sedan-box > img,h2,p,button{
+    margin-bottom: 30px;
+}
+p{
+    color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.sedan-botton{
+     width: 100px;
+     height: 30px;
+     background: hsl(0, 0%, 95%);
+     color:  hsl(31, 77%, 52%);
+     border:1px solid hsl(0, 0%, 95%) ;
+     border-radius: 15px;
+     padding: 5px;
+     margin-top: 20px;
+     font-family: 'Lexend Deca', sans-serif;
+     
+
+}
+button:hover{
+    background: none;
+    color:hsl(0, 0%, 95%) ;
+    cursor: pointer;
+}
+.suv-box{
+    background:hsl(184, 100%, 22%) ;
+    color: hsla(0, 0%, 100%, 0.75);
+    align-items: center;
+    padding: 20px;
+}
+.suv-box > img,h2,p,button{
+    margin-bottom: 30px;
+}
+.suv-botton{
+    width: 100px;
+     height: 30px;
+     background: hsl(0, 0%, 95%);
+     color: hsl(184, 100%, 22%);
+     border:1px solid hsl(0, 0%, 95%) ;
+     border-radius: 15px;
+     padding: 5px;
+     margin-top: 20px;
+     font-family: 'Lexend Deca', sans-serif;
+
+}
+.luxury-box{
+    background:hsl(179, 100%, 13%) ;
+    color: hsla(0, 0%, 100%, 0.75);
+    align-items: center;
+    padding: 20px;
+    border-radius: 0 5px 5px 0;
+}
+.luxury-box > img,h2,p,button{
+    margin-bottom: 30px;
+}
+.luxury-button{
+    width: 100px;
+     height: 30px;
+     background: hsl(0, 0%, 95%);
+     color: hsl(179, 100%, 13%);
+     border:1px solid hsl(0, 0%, 95%) ;
+     border-radius: 15px;
+     padding: 5px;
+     margin-top: 20px;
+     font-family: 'Lexend Deca', sans-serif;
+}
